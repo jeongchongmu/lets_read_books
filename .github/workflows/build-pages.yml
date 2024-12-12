@@ -38,6 +38,4 @@ jobs:
           git config user.email "suerish.e@gmail.com"
           git add pages/**
           git commit -m "Update pages [CI]" || echo "No changes to commit"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/jeongchongmu/lets_read_books.git
