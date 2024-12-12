@@ -1,0 +1,10 @@
+{
+  "index": {
+    "type": "page",
+    "display": "hidden"
+  },
+  "book": {
+    "title": "스터디 책",
+    "type": "page"
+  }
+}

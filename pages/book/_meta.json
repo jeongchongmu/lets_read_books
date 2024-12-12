@@ -1,4 +1,7 @@
 {
-  "index": "들어가며",
-  "ch1": "1장"
+  "index": "소개",
+  "--- separator": {
+    "type": "separator"
+  },
+  "react-deep-dive": "모던 리액트 Deep Dive"
 }
