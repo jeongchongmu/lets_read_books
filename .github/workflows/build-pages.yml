@@ -34,8 +34,9 @@ jobs:
       # 5. 변경사항 커밋 및 푸시
       - name: Commit and push changes
         run: |
-          git config user.name "helloleesul"
-          git config user.email "suerish.e@gmail.com"
+          git config user.name "jeongchongmu"
           git add pages/**
           git commit -m "Update pages [CI]" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/jeongchongmu/lets_read_books.git
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
