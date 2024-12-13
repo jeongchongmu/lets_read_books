@@ -1,40 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+### **1주차: 리액트의 이해와 환경**
 
-## Getting Started
+- **들어가며**: 리액트의 역사 및 배경
+- **01장 1.1 ~ 1.3**: 자바스크립트의 동등 비교, 함수, 클래스
 
-First, run the development server:
+### **2주차: 자바스크립트 심화**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **01장 1.4 ~ 1.6**: 클로저, 이벤트 루프와 비동기 통신, 리액트에서 자주 사용하는 문법
+- **01장 1.7**: 타입스크립트의 이해 및 활용
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **3주차: 리액트 기본 개념**
 
-You can start editing the page by modifying `pages/index.mdx`. The page auto-updates as you edit the file.
+- **02장 2.1 ~ 2.2**: JSX와 가상 DOM, 리액트 파이버
+- **02장 2.3**: 클래스형 컴포넌트와 함수형 컴포넌트
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### **4주차: 렌더링과 최적화**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- **02장 2.4 ~ 2.5**: 리액트 렌더링, 메모이제이션
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **5주차: 리액트 훅**
 
-## Learn More
+- **03장 3.1**: 리액트 기본 훅(useState, useEffect 등)
+- **03장 3.2**: 사용자 정의 훅과 고차 컴포넌트
 
-To learn more about Next.js, take a look at the following resources:
+### **6주차: 서버 사이드 렌더링**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- **04장 4.1 ~ 4.3**: 서버 사이드 렌더링과 Next.js 이해
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### **7주차: 상태 관리**
 
-## Deploy on Vercel
+- **05장 전체**: 리액트 훅을 이용한 상태 관리와 상태 관리 라이브러리(Recoil, Zustand 등)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **8주차: 디버깅과 도구**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- **06장**: 리액트 개발 도구
+- **07장**: 크롬 개발자 도구
+
+### **9주차: 환경 구축**
+
+- **08장**: ESLint, 테스트 도구, 좋은 코드 작성을 위한 환경
+- **09장 9.1 ~ 9.3**: Next.js 개발 환경 및 배포
+
+### **10주차: 리액트 버전 업데이트**
+
+- **10장 10.1 ~ 10.2**: 리액트 17, 18 버전의 변경 사항
+
+### **11주차: Next.js 최신 기능**
+
+- **11장 전체**: Next.js 13과 리액트 서버 컴포넌트, 새로운 기능
+
+### **12주차: 웹 성능 개선**
+
+- **12장**: 핵심 웹 지표(LCP, FID, CLS)와 성능 최적화
+
+### **13주차: 성능 측정 도구**
+
+- **13장 전체**: 구글 라이트하우스, WebPageTest, 크롬 개발자 도구 활용
+
+### **14주차: 보안**
+
+- **14장 전체**: 리액트와 웹 보안 (XSS, 보안 헤더 설정 등)
+
+### **15주차: 마무리**
+
+- **15장 전체**: 프로젝트 시작 시 고려할 사항, 리액트의 미래, 리뷰 및 회고
+
+## **스터디 방법**
+
+---
+
+1. **주차별 분량 정리**: 두 명이 각자 읽고 정리, 발표.
+2. **토론 시간**: 매주 1시간 동안 핵심 개념, 이해가 어려운 내용, 응용 사례 논의.
+    1. 각자 주차별 읽은 내용 간략히 얘기하기
+    → 발표 후, 놓친 부분이 있다면 각자 체크해보기
+    2. 이해가 어렵거나 `아하 모먼트` 내용 공유하기 
+    → 이해를 도와줄 수 있다면 아는 만큼 적극적으로 설명하기
+    → 모두 이해가 어려운 부분이 있다면 주변에 도움 요청해서 다음 주차 때 보충하기
+3. **실습 병행**: 학습한 내용을 간단한 프로젝트에 바로 적용하며 실습.
