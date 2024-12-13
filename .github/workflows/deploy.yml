@@ -44,7 +44,7 @@ jobs:
 
         env:
 
-          API_TOKEN_GITHUB: ${{ secrets.GH_TOKEN }}
+          API_TOKEN_GITHUB: ${{ secrets.AUTO_ACTIONS }}
 
         with:
 
