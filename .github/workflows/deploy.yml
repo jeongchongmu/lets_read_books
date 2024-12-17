@@ -66,5 +66,5 @@ jobs:
 
         run: echo $DESTINATION_CLONED_DIRECTORY
 
-      - name: Trigger Vercel Deploy
-        run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_kaapGFCQ3iac2TvNGliLr8GyRjVB/OLSY2r2jGd
+      - name: Trigger Vercel Deploy with npx
+        run: npx vercel --prod --yes --force --token ${{ secrets.VERCEL_TOKEN }}
