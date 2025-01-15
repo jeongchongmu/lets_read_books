@@ -14,15 +14,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18"
-          
-      - name: Install mustache (to update the date)
-        run: apk add ruby && gem install mustache
+      - name: Install dependencies (Node.js, Ruby, Vercel)
+        run: |
+          apk add --no-cache nodejs npm ruby
+          gem install mustache
+          npm install -g vercel
 
-      - name: creates output
+      - name: Run build script
         run: sh ./build.sh
 
       - name: Pushes to another repository
